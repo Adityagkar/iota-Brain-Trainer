@@ -1,4 +1,4 @@
-#Sun Feb 25 16:43:34 IST 2018
-base.0=C\:\\Users\\Aditya\\AndroidStudioProjects\\IOTA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\401
+#Sun Feb 25 18:10:15 IST 2018
+base.0=C\:\\Users\\Aditya\\AndroidStudioProjects\\IOTA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\420
 path.0=classes.dex
 renamed.0=classes.dex
