@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backnew2quiz">
+
+    <TextView
+        android:id="@+id/timer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/question_text_view"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/buttontimer"
+        android:padding="8dp"
+        android:text="30"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="2 + 3"
+        android:textColor="@android:color/background_light"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/question_text_view"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/buttontimer"
+        android:padding="8dp"
+        android:text="0"
+        android:textColor="@color/lightcolor1"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timer_text_view"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/lightcolor1"
+            android:onClick="score"
+            android:tag="25"
+            android:text="25"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="score"
+            android:tag="35"
+            android:text="35"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="score"
+            android:tag="29"
+            android:text="29"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@color/lightcolor1"
+            android:onClick="score"
+            android:tag="39"
+            android:text="39"
+            android:textSize="40sp" />
+    </GridLayout>
+
+</RelativeLayout>

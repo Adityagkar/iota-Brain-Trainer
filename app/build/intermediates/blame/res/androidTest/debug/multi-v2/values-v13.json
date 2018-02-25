@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Aditya\\AndroidStudioProjects\\IOTA\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v13\\values-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Aditya\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a888ffd9f403bf4642b7bd092c075b29\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

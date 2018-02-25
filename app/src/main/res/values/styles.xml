@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttondefault">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">95dp</item>
+    </style>
+
+    <style name="ExtraButtonDesign" parent="buttondefault">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:foreground">@drawable/styler1</item>
+    </style>
+
+</resources>
