@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         final TextView err=(TextView) findViewById(R.id.textView7);
-       start.setOnClickListener(new View.OnClickListener() {
+
+
+        start.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -31,10 +33,12 @@ public class MainActivity extends AppCompatActivity {
                     err.setText("You can't leave this Empty !");
                 else{
                     Intent in2=new Intent(MainActivity.this,Main2Activity.class);
-                     in2.putExtra("player_score",txt.getText());
-                    startActivity(in2);
+                    EditText player_string=(EditText) findViewById(R.id.editText2);
+                     //in2.putExtra("player_score",txt.getText());
+                     in2.putExtra("player",String.valueOf(player_string.getText()));
+                     startActivity(in2);
 
-                    MainActivity.this.finish();
+                     MainActivity.this.finish();
                 }
 
             }

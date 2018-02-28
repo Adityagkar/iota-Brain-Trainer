@@ -56,7 +56,7 @@
         app:layout_constraintVertical_bias="0.094" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_high"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -91,10 +91,16 @@
         android:id="@+id/player"
         android:layout_width="99dp"
         android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

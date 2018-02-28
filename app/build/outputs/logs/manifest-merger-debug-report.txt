@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a888ffd9f403bf4642b7bd092c075b29\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\38593edc99fa24bc35add552a75953e5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b1b5f0cd760e021bb9eaa4d0692f0c46\AndroidManifest.xml:17:1-28:12
@@ -15,25 +15,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Aditya\.gra
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ba829672aaa3ce603fa06984f692ad1a\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8fb154db2b6adfdffeaa3c4e1668e2ad\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f23e4e33802be8502436011a17979598\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a888ffd9f403bf4642b7bd092c075b29\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a888ffd9f403bf4642b7bd092c075b29\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Aditya\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\38593edc99fa24bc35add552a75953e5\AndroidManifest.xml:9:5-20
@@ -91,9 +91,13 @@ ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:20:19-48
 activity#com.example.aditya.iota.ScoreBoard
-ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:21:9-57
+ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:21:9-48
 	android:name
 		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:21:19-45
+activity#com.example.aditya.iota.HighScoreActivity
+ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:22:9-64
+	android:name
+		ADDED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml:22:19-52
 uses-sdk
 INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Aditya\AndroidStudioProjects\IOTA\app\src\main\AndroidManifest.xml

@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".ScoreBoard"></activity>
+        <activity android:name=".ScoreBoard" />
+        <activity android:name=".HighScoreActivity"></activity>
     </application>
 
 </manifest>
