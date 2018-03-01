@@ -21,7 +21,7 @@ public class Main2Activity extends AppCompatActivity  {
     int score=0; // this will maintain the score (at any time)
     CountDownTimer obj=null;
     int total_questions=0;  //maintains count of questions attempted by user
-    int right_answers=0;
+    int right_answers=0;    //maintains count of total right answers
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,7 +119,7 @@ public class Main2Activity extends AppCompatActivity  {
                             @Override
                             public void onClick(View view) {
                              if(total_questions==0)
-                            obj.start();
+                                obj.start();//timer starts when the user presses any button .
 
                                     if(time>0)
                                     {//if time is still there then fire next question

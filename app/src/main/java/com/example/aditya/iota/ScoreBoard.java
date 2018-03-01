@@ -62,14 +62,16 @@ public class ScoreBoard extends AppCompatActivity {
 
                int correct = CorrectAnswered;
                int incorrect = TotalQuestions - CorrectAnswered;
-               float percentage = (CorrectAnswered / TotalQuestions) * 100;
+
+               float percentage = ((float)CorrectAnswered / (float)TotalQuestions)*100.00f;
                String scores = score;
+               Log.d("PERCENT",percentage+" ");
 
                try {
 
                    SQLiteDatabase db = this.openOrCreateDatabase("IotaGame.db", MODE_PRIVATE, null);
-                   db.execSQL("create table if not exists " + "scores" + " (CORRECT_ANSWERS INTEGER,INCORRECT_ANSWERS INTEGER,SCORES VARCHAR,PERCENTAGE REAL,TOTAL_QUESTIONS_ANSWERED INTEGER)");
-                   db.execSQL("INSERT INTO scores VALUES ('" + correct + "','" + incorrect + "','" + scores + "','" + percentage + "','" + TotalQuestions + "')");
+                  db.execSQL("create table if not exists " + "scores" + " (CORRECT_ANSWERS INTEGER,INCORRECT_ANSWERS INTEGER,SCORES VARCHAR,PERCENTAGE REAL,TOTAL_QUESTIONS_ANSWERED INTEGER)");
+                  db.execSQL("INSERT INTO scores VALUES ('" + correct + "','" + incorrect + "','" + scores + "','" + percentage + "','" + TotalQuestions + "')");
                   // db.execSQL("drop table scores");
                    Log.d("ADDED","SUCCESS");
 

@@ -1,3 +1,5 @@
+//high score activity is responsible for fetching data from a database and displaying it.
+
 package com.example.aditya.iota;
 
 import android.content.Intent;
@@ -26,18 +28,15 @@ public class HighScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_high_score);
 
         TableLayout mylist=(TableLayout) findViewById(R.id.table_lay1);
-        ArrayList column_1=new ArrayList();
-
-//             c=null;
-
 
         try {
             SQLiteDatabase db = this.openOrCreateDatabase("IotaGame.db", MODE_PRIVATE, null);
             Cursor    c = db.rawQuery("SELECT  * FROM scores", null);
 
           if( c.moveToFirst())
-          {Log.d("SCORESS","GOT INTO IF");
+          {
           do {
+              //used table layout for displaying queries from data
               Log.d("SCORESS","GOT INTO dowhile");
               String scores = c.getString(c.getColumnIndex("SCORES"));
               int correct = c.getInt(c.getColumnIndex("CORRECT_ANSWERS"));
@@ -52,7 +51,6 @@ public class HighScoreActivity extends AppCompatActivity {
               c1.setTextColor(Color.WHITE);
               c1.setGravity(Gravity.CENTER);
               row_obj.addView(c1);
-
 
 
               TextView c2 = new TextView(this);
