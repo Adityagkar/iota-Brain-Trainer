@@ -10,16 +10,83 @@
     android:visibility="visible"
     tools:context="com.example.aditya.iota.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TableLayout
+        android:id="@+id/table_lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/light2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:background="@android:color/holo_blue_dark">
+        app:layout_constraintVertical_bias="1.0">
 
-    </FrameLayout>
+        <TableRow
+            android:id="@+id/tr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light2">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:text="CORRECT ANSWERS"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:text="INCORRECT ANSWERS"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SCORES"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:text="ACCURACY (%)"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="308dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text="TOTAL QUESTIONS ANSWERED"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+    </TableLayout>
 
 </android.support.constraint.ConstraintLayout>

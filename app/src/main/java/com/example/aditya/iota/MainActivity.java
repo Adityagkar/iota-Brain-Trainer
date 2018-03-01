@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 temp=txt.getText().toString();
                 if(temp.isEmpty())
-                    err.setText("You can't leave this Empty !");
+                    err.setText("OHH !! You can't leave this Empty !");
                 else{
                     Intent in2=new Intent(MainActivity.this,Main2Activity.class);
                     EditText player_string=(EditText) findViewById(R.id.editText2);

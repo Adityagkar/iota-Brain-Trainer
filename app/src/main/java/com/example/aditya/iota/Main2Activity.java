@@ -21,6 +21,7 @@ public class Main2Activity extends AppCompatActivity  {
     int score=0; // this will maintain the score (at any time)
     CountDownTimer obj=null;
     int total_questions=0;  //maintains count of questions attempted by user
+    int right_answers=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,8 +56,10 @@ public class Main2Activity extends AppCompatActivity  {
                 in2.putExtra("score",String.valueOf(score));
                 in2.putExtra("player",String.valueOf(player_name));
                 in2.putExtra("questions",String.valueOf(total_questions));
+                in2.putExtra("right",String.valueOf(right_answers));
                 startActivity(in2);
 
+                Main2Activity.this.finish();
 
             }
 
@@ -125,6 +128,7 @@ public class Main2Activity extends AppCompatActivity  {
                                         score=score_temp;
                                         score_card.setText(Integer.toString(score_temp));
                                         total_questions=total_questions+1;
+                                        right_answers=right_answers+1;
                                         nextActivity();
 
                                     }
@@ -140,6 +144,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                               if(time>0){
                                   int score_temp=Integer.parseInt((String) score_card.getText());
                                   total_questions=total_questions+1;
@@ -158,6 +164,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                                 if(time>0){
                                     int score_temp=Integer.parseInt((String) score_card.getText());
                                     total_questions=total_questions+1;
@@ -176,6 +184,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                                 if(time>0){
                                     int score_temp=Integer.parseInt((String) score_card.getText());
                                     total_questions=total_questions+1;
@@ -210,6 +220,7 @@ public class Main2Activity extends AppCompatActivity  {
                                         score=score_temp;
                                         score_card.setText(Integer.toString(score_temp));
                                         total_questions=total_questions+1;
+                                        right_answers=right_answers+1;
                                         nextActivity();
 
                                     }
@@ -224,6 +235,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         int score_temp=Integer.parseInt((String) score_card.getText());
                                         total_questions=total_questions+1;
@@ -243,6 +256,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         int score_temp=Integer.parseInt((String) score_card.getText());
                                         total_questions=total_questions+1;
@@ -262,6 +277,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         int score_temp=Integer.parseInt((String) score_card.getText());
                                         total_questions=total_questions+1;
@@ -298,6 +315,7 @@ public class Main2Activity extends AppCompatActivity  {
                                         score=score_temp;
                                         score_card.setText(Integer.toString(score_temp));
                                         total_questions=total_questions+1;
+                                        right_answers=right_answers+1;
                                         nextActivity();
 
                                     }
@@ -311,6 +329,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         int score_temp=Integer.parseInt((String) score_card.getText());
                                         total_questions=total_questions+1;
@@ -330,6 +350,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         int score_temp=Integer.parseInt((String) score_card.getText());
                                         total_questions=total_questions+1;
@@ -349,6 +371,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                                 @Override
                                 public void onClick(View view) {
+                                    if(total_questions==0)
+                                        obj.start();
                                     if(time>0){
                                         total_questions=total_questions+1;
                                         nextActivity();
@@ -380,6 +404,7 @@ public class Main2Activity extends AppCompatActivity  {
                                     score=score_temp;
                                     score_card.setText(Integer.toString(score_temp));
                                     total_questions=total_questions+1;
+                                    right_answers=right_answers+1;
                                     nextActivity();
 
                                 }
@@ -394,6 +419,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                                 if(time>0){
                                     int score_temp=Integer.parseInt((String) score_card.getText());
                                     total_questions=total_questions+1;
@@ -413,6 +440,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                                 if(time>0){
                                     int score_temp=Integer.parseInt((String) score_card.getText());
                                     total_questions=total_questions+1;
@@ -432,6 +461,8 @@ public class Main2Activity extends AppCompatActivity  {
 
                             @Override
                             public void onClick(View view) {
+                                if(total_questions==0)
+                                    obj.start();
                                 if(time>0){
                                     int score_temp=Integer.parseInt((String) score_card.getText());
                                     total_questions=total_questions+1;
